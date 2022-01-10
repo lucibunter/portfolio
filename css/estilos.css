@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+h1{
+    font-size: 36px;
+    color: #E20000;
+}
+p {
+    color: #6a6a6a;
+    font-size: 16px;
+}
+.form-control{
+    border-radius: 16px;
+}
+textarea{
+    height: 150px;
+}
+nav .active{
+    border: 1px solid #E20000;
+    border-radius: 20px;
+}
+nav .nav-link{
+    color: #282828;
+}
+nav .fa-bars{
+    color: #E20000;
+}
+nav .navbar-toggler{
+    color: #E20000;
+    
+}
+.btn-rojo{
+    background-color: #E20000;
+    color: white;
+    border: none;
+    font-weight: 100;
+    border-radius: 15px;
+}
+.btn-rojo:hover{
+    background-color: #370a6d;
+    color: white;
+}
+.texto-rojo{
+    color: #E20000;
+    text-decoration: none;
+}
+#btn-descarga{
+    position: relative;
+    left: 400px;
+}
+.btn{
+    border-radius: 15px;
+    text-decoration: none;
+
+}
+.btn-blanco{
+    background-color: white;
+    color: #370a6d;
+    border: none;
+    border-radius: 15px ;
+}
+.btn-blanco:hover{
+    background-color: #370a6d;
+    color: white;
+}
+footer .fa-github{
+    font-size: 35px;
+    color: white;
+}
+footer .fa-linkedin-in {
+    color: #ff4a49;
+    background-color: white;
+    font-size: 24px;
+    border: 0px;
+    height: 36px;
+    width: 36px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+footer {
+    color: white;
+    font-weight: 100;
+}
+footer a{
+    color: white;
+    text-decoration: underline;
+    font-weight: 100;
+}
+.whatsapp {
+    background-color: #370a6d;
+    color: white;
+    width: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding: 8px 0 15px 0;
+    right: 80px;
+    position: fixed;
+    bottom: 0px;
+}
+.whatsapp a{
+    color: white;
+}
+.color-gradiente{
+    background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+
+}
+#contacto, #inicio {
+    background-image: url('../images/fondo-contacto.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#inicio img{
+    width: 250px;
+}
+#inicio img:hover{
+    width: 260px;
+}
+#inicio .div-cohete{
+    height: 410px;
+}
+#inicio .input-home p {
+    color: white;
+    font-size: 17px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
+
+}
+#proyectos{
+    background-image: url(../images/fondo-proyectos.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#proyectos h3{
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+}
+#proyectos p{
+    font-size: 14px;
+}
+#proyectos img {
+    height: 210px;
+}
+#proyectos .texto{
+    font-size: 14px;
+    height: 150px;
+}
+#proyectos .fa-github, #sobre-mi .fa-github{
+    color: #E20000;
+}
+#proyectos .fa-linkedin-in, #sobre-mi .fa-linkedin-in{
+    color: white;
+    background-color: #E20000;
+}
+#proyectos footer, #sobre-mi footer {
+    color: #E20000;
+    font-weight: 100;
+}
+#proyectos footer a, #sobre-mi footer a{
+    color: #E20000;
+    text-decoration: underline;
+    font-weight: 100;
+}
+#proyectos footer a:hover, #sobre-mi footer a:hover{
+    color: #370a6d;
+}
+@media (max-width: 750px) {
+    #contacto, #inicio {
+        background-image: url(../images/fondo-proyectos.png);
+    }
+    .input-home p{
+        color: #E20000 !important;
+        border: #E20000 1px solid !important;
+        width: auto;
+    }
+    #contacto .fa-github, #inicio .fa-github{
+        color: #E20000;
+    }
+    #contacto .fa-linkedin-in, #inicio .fa-linkedin-in{
+        color: white;
+        background-color: #E20000;
+    }
+    #contacto footer, #inicio footer {
+        color: #E20000;
+        font-weight: 100;
+    }
+    #contacto footer a, #inicio footer a{
+        color: #E20000;
+        text-decoration: underline;
+        font-weight: 100;
+    }
+    #contacto footer a:hover, #inicio footer a:hover{
+        color: #370a6d;
+    }
+}
