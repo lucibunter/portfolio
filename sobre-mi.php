@@ -45,76 +45,83 @@
             </div>
         </nav>
     </header>
-    <main class="container">
-        <div class="row">
-            <div class="col-12 pt-4 pb-5">
-                <h1>Sobre mí</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <P>Soy estudiante de programacion Full Stack en DePc Suite. Disfruto aprendiendo e investigando, poniendome objetivos y buscando soluciones para lograrlos.</P>
-            </div>
-        </div>
-        <div class="fondo-rojo">
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 pt-4 pb-5">
+                    <h1>Sobre mí</h1>
+                </div>
+            </div>      
             <div class="row">
                 <div class="col-12">
-                    <h2>Stack Tecnologico</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-2 m-1">
-                    <p></p>
-                    <img src="" alt="">
-                </div>
-                <div class="col-2 m-1">
-                    <p></p>
-                    <img src="" alt="">
-                </div>
-                <div class="col-2 m-1">
-                    <p></p>
-                    <img src="" alt="">
-                </div>
-                <div class="col-2 m-1">
-                    <p></p>
-                    <img src="" alt="">
-                </div>
-                <div class="col-2 m-1">
-                    <p></p>
-                    <img src="" alt="">
-                </div>
-                <div class="col-2 m-1">
-                    <p></p>
-                    <img src="" alt="">
-                </div>
-            </div>
-            <div class="row">
-            <div class="col-2 m-1">
-                    <p></p>
-                    <img src="" alt="">
-                </div>
-                <div class="col-2 m-1">
-                    <p></p>
-                    <img src="" alt="">
-                </div>
-                <div class="col-2 m-1">
-                    <p></p>
-                    <img src="" alt="">
-                </div>
-                <div class="col-2 m-1">
-                    <p></p>
-                    <img src="" alt="">
-                </div>
-                <div class="col-2 m-1">
-                    <p></p>
-                    <img src="" alt="">
-                </div>
-                <div class="col-2 m-1">
-                    <p></p>
-                    <img src="" alt="">
+                    <P>Soy estudiante de programacion Full Stack en DePc Suite. Disfruto aprendiendo e investigando, poniendome objetivos y buscando soluciones para lograrlos.</P>
                 </div>
             </div>
         </div>
+        <section id="stack" class="color-gradiente">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Stack Tecnologico</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2 col-6 cuadrado">
+                        <div class="text-center m-2 p-30">
+                            <p>Javascript</p>
+                            <img src="images/logojavascript.png" alt="" width="100px">
+                        </div>
+                    </div>
+                    <div class="col-sm-2 col-6 text-center m-1 p-30">
+                        <p>PHP</p>
+                        <img src="images/php_icon.png" alt="php" width="100px">
+                    </div>
+                    <div class="col-2 m-1">
+                        <p></p>
+                        <img src="" alt="">
+                    </div>
+                    <div class="col-2 m-1">
+                        <p></p>
+                        <img src="" alt="">
+                    </div>
+                    <div class="col-2 m-1">
+                        <p></p>
+                        <img src="" alt="">
+                    </div>
+                    <div class="col-2 m-1">
+                        <p></p>
+                        <img src="" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-2 m-1">
+                        <p></p>
+                        <img src="" alt="">
+                    </div>
+                    <div class="col-2 m-1">
+                        <p></p>
+                        <img src="" alt="">
+                    </div>
+                    <div class="col-2 m-1">
+                        <p></p>
+                        <img src="" alt="">
+                    </div>
+                    <div class="col-2 m-1">
+                        <p></p>
+                        <img src="" alt="">
+                    </div>
+                    <div class="col-2 m-1">
+                        <p></p>
+                        <img src="" alt="">
+                    </div>
+                    <div class="col-2 m-1">
+                        <p></p>
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    <main>
     <footer class="container mb-3">
         <div class="row">
             <div class="col-12 col-sm-3 text-center text-sm-start">

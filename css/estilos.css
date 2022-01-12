@@ -171,6 +171,11 @@ footer a{
 #proyectos footer a:hover, #sobre-mi footer a:hover{
     color: #370a6d;
 }
+.cuadrado{
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px;
+}
 @media (max-width: 750px) {
     #contacto, #inicio {
         background-image: url(../images/fondo-proyectos.png);
@@ -199,4 +204,5 @@ footer a{
     #contacto footer a:hover, #inicio footer a:hover{
         color: #370a6d;
     }
+
 }
