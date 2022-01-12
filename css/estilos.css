@@ -132,7 +132,7 @@ footer a{
     font-weight: 600;
 
 }
-#proyectos{
+#proyectos, #sobre-mi{
     background-image: url(../images/fondo-proyectos.png);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -174,8 +174,16 @@ footer a{
 .cuadrado{
     background-color: white;
     border-radius: 5px;
-    padding: 30px;
 }
+#sobre-mi h2{
+    color: white;
+    font-size: 22px;
+}
+.borde{
+    border: solid 10px white;
+}
+
+
 @media (max-width: 750px) {
     #contacto, #inicio {
         background-image: url(../images/fondo-proyectos.png);

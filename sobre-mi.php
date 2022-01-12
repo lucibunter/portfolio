@@ -14,7 +14,7 @@
         rel="stylesheet">
 </head>
 
-<body id="sobre-mi">
+    <body id="sobre-mi">
     <header class="container">
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid px-0">
@@ -46,80 +46,112 @@
         </nav>
     </header>
     <main>
-        <div class="container">
+        <div class="container">    
             <div class="row">
-                <div class="col-12 pt-4 pb-5">
-                    <h1>Sobre mí</h1>
+                <div class="col-6 pb-5">
+                    <h1 class="col-12 pt-4 pb-3">Sobre mí</h1>
+                    <P class="pb-5">Soy estudiante de programacion Full Stack en DePc Suite. Disfruto aprendiendo e investigando, poniendome objetivos y buscando soluciones para lograrlos.</P>
+                    <a href="https://api.whatsapp.com/send?phone=542213141725" class="btn btn-rojo">Enviar mensaje</a>
                 </div>
-            </div>      
-            <div class="row">
-                <div class="col-12">
-                    <P>Soy estudiante de programacion Full Stack en DePc Suite. Disfruto aprendiendo e investigando, poniendome objetivos y buscando soluciones para lograrlos.</P>
+                <div class="col-6">
+                    <div><img src="images/luli-listo.jpg" alt="" class="rounded-circle ms-5 mt-2 borde" width="300px"></div>
                 </div>
             </div>
         </div>
         <section id="stack" class="color-gradiente">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-12 pt-5 pb-4">
                         <h2>Stack Tecnologico</h2>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-2 col-6 cuadrado">
-                        <div class="text-center m-2 p-30">
-                            <p>Javascript</p>
-                            <img src="images/logojavascript.png" alt="" width="100px">
+                    <div class="col-sm-2 col-6 p-1">
+                        <div class="text-center m-1 cuadrado py-3">
+                            <p class="pt-4">Javascrit</p>
+                            <img src="images/logojavascript.png" alt="" width="60px" class=" pb-4">
                         </div>
-                    </div>
-                    <div class="col-sm-2 col-6 text-center m-1 p-30">
-                        <p>PHP</p>
-                        <img src="images/php_icon.png" alt="php" width="100px">
-                    </div>
-                    <div class="col-2 m-1">
-                        <p></p>
-                        <img src="" alt="">
-                    </div>
-                    <div class="col-2 m-1">
-                        <p></p>
-                        <img src="" alt="">
-                    </div>
-                    <div class="col-2 m-1">
-                        <p></p>
-                        <img src="" alt="">
-                    </div>
-                    <div class="col-2 m-1">
-                        <p></p>
-                        <img src="" alt="">
-                    </div>
+                    </div> 
+                    <div class="col-sm-2 col-6 p-1">
+                        <div class="text-center m-1 cuadrado py-3">
+                            <p class="pt-4">PHP</p>
+                            <img src="images/php_icon.png" alt="" width="60px" class=" pb-4">
+                        </div>
+                    </div> 
+                    <div class="col-sm-2 col-6 p-1">
+                        <div class="text-center m-1 cuadrado py-3">
+                            <p class="pt-4">HTML5</p>
+                            <img src="images/html5-logo-31813.png" alt="" width="60px" class=" pb-4">
+                        </div>
+                    </div>                    
+                    <div class="col-sm-2 col-6 p-1">
+                        <div class="text-center m-1 cuadrado py-3">
+                            <p class="pt-4">React.js</p>
+                            <img src="images/js_react js_logo_react_react native_icon.png" alt="" width="60px" class=" pb-4">
+                        </div>
+                    </div>                   
+                    <div class="col-sm-2 col-6 p-1">
+                        <div class="text-center m-1 cuadrado py-3">
+                            <p class="pt-4">jQuery</p>
+                            <img src="images/jquery_icon.png" alt="" width="60px" class=" pb-4">
+                        </div>
+                    </div>                  
+                    <div class="col-sm-2 col-6 p-1">
+                        <div class="text-center m-1 cuadrado py-3">
+                            <p class="pt-4">Bootstrap</p>
+                            <img src="images/bootstrap_icon.png" alt="" width="60px" class=" pb-4">
+                        </div>
+                    </div> 
                 </div>
+                <div class="row pb-5">
+                    <div class="col-sm-2 col-6 p-1">
+                        <div class="text-center m-1 cuadrado py-3">
+                            <p class="pt-4">Laravel</p>
+                            <img src="images/logo-laravel_logo_logos_icon.png" alt="" width="60px" class=" pb-4">
+                        </div>
+                    </div> 
+                    <div class="col-sm-2 col-6 p-1">
+                        <div class="text-center m-1 cuadrado py-3">
+                            <p class="pt-4">My SQL</p>
+                            <img src="images/MySQLmariadb.png" alt="" width="98px" class=" pb-4">
+                        </div>
+                    </div> 
+                    <div class="col-sm-2 col-6 p-1">
+                        <div class="text-center m-1 cuadrado py-3">
+                            <p class="pt-4">CSS</p>
+                            <img src="images/css3_achievement_award_icon.png" alt="" width="60px" class=" pb-4">
+                        </div>
+                    </div>                    
+                    <div class="col-sm-2 col-6 p-1">
+                        <div class="text-center m-1 cuadrado py-3">
+                            <p class="pt-4">Git</p>
+                            <img src="images/git_social media_icon.png" alt="" width="60px" class=" pb-4">
+                        </div>
+                    </div>                   
+                    <div class="col-sm-2 col-6 p-1">
+                        <div class="text-center m-1 cuadrado py-3">
+                            <p class="pt-4">Apache</p>
+                            <img src="images/logoapache.png" alt="" width="147px" class=" pb-4">
+                        </div>
+                    </div>                  
+                    <div class="col-sm-2 col-6 p-1">
+                        <div class="text-center m-1 cuadrado py-3">
+                            <p class="pt-4">Mercado Pago</p>
+                            <img src="images/mercado-pago-48.png" alt="" width="60px" class=" pb-4">
+                        </div>
+                    </div>                   
+                </div>
+            </div>
+        </section>
+        <section id="experiencia">
+            <div class="container">
                 <div class="row">
-                    <div class="col-2 m-1">
-                        <p></p>
-                        <img src="" alt="">
-                    </div>
-                    <div class="col-2 m-1">
-                        <p></p>
-                        <img src="" alt="">
-                    </div>
-                    <div class="col-2 m-1">
-                        <p></p>
-                        <img src="" alt="">
-                    </div>
-                    <div class="col-2 m-1">
-                        <p></p>
-                        <img src="" alt="">
-                    </div>
-                    <div class="col-2 m-1">
-                        <p></p>
-                        <img src="" alt="">
-                    </div>
-                    <div class="col-2 m-1">
-                        <p></p>
-                        <img src="" alt="">
+                    <div class="col-12 pt-5 pb-4">
+                        <h2>Experiencia laboral</h2>
                     </div>
                 </div>
             </div>
+
         </section>
     <main>
     <footer class="container mb-3">
