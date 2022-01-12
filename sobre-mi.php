@@ -14,7 +14,7 @@
         rel="stylesheet">
 </head>
 
-    <body id="sobre-mi">
+<body id="sobre-mi">
     <header class="container">
         <nav class="navbar navbar-expand-md">
             <div class="container-fluid px-0">
