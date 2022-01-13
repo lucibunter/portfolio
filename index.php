@@ -1,3 +1,6 @@
+<?php
+$pg="index";
+?>
 <!DOCTYPE html>
 <html lang="ES">
 
@@ -16,36 +19,8 @@
 </head>
 
 <body id="inicio">
-    <header class="container">
-        <nav class="navbar navbar-expand-md">
-            <div class="container-fluid px-0">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars" ></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0 mt-2">
-                        <li class="nav-item px-3">
-                            <a class="nav-link active ps-3 py-1" href="index.php">Inicio</a>
-                        </li>
-                        <li class="nav-item px-3">
-                            <a class="nav-link px-3 py-1" href="sobre-mi.php">Sobre mi</a>
-                        </li>
-                        <li class="nav-item px-3">
-                            <a class="nav-link px-3 py-1" href="proyectos.php">Proyectos</a>
-                        </li>
-                        <li class="nav-item px-3">
-                            <a class="nav-link px-3 py-1" href="contacto.php">Contacto</a>
-                        </li>
-                        <li>
-                            <div class="container pb-3">
-                                <button type="button" id="btn-descarga" name="btnDescargar" class="btn btn-rojo px-4 py-1">Descargar mi CV</button>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+<?php include_once "header.php"; ?>
+    
     <main class="container">
         <div class="row">
             <div class="col-12 mt-4 text-center div-cohete ">
