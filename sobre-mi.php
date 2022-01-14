@@ -123,7 +123,7 @@ $pg="sobre-mi";
             <div class="container">
                 <div class="row">
                     <div class="col-12 pt-5 pb-4">
-                        <h2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-briefcase-fill" viewBox="0 0 16 16">
+                        <h2><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-briefcase-fill" viewBox="0 0 16 16">
   <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5z"/>
   <path d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z"/>
 </svg>  Experiencia laboral</h2>
@@ -170,19 +170,20 @@ $pg="sobre-mi";
 
 
         </section>
+        
         <section id="formacion">
-            <div class="container">
+        <div class="container">
                 <div class="row">
                     <div class="col-12 pt-5 pb-4">
-                        <h2><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+                        <h2><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
   <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
   <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
-</svg>  Formación académica</h2>
+</svg> Formación académica</h2>
                     </div>
                 </div>
             </div>
             <div class="container shadow">
-                <div class="row pt-3 pb-5">
+                <div class="row pt-1 pb-1">
                     <div class="col-6 pt-4">
                         <div class="row">
                             <div class="col-4">
@@ -190,7 +191,7 @@ $pg="sobre-mi";
                             </div>
                             <div class="col-8">
                                 <p class="puesto">Bachillerato en Ciencias Sociales</p>
-                                <p class="empresa">Colegio Mercedes Pacheco</p>
+                                <p class="inst">Colegio Mercedes Pacheco</p>
                                 <p class="tiempo">2011 - 2017</p>
                                 <p>https://mercedespacheco.com.ar</p>
                             </div>
@@ -203,7 +204,7 @@ $pg="sobre-mi";
                             </div>
                             <div class="col-8">
                                 <p class="puesto">Tecnico en Practicas Cardiologicas</p>
-                                <p class="empresa">Universidad Nacional de La Plata</p>
+                                <p class="inst">Universidad Nacional de La Plata</p>
                                 <p class="tiempo">feb 2020 - actualidad</p>
                                 <p>Cursadas aprobadas 10 de 16
                                 http://www.med.unlp.edu.ar/
@@ -212,7 +213,7 @@ $pg="sobre-mi";
                         </div>
                     </div>
                 </div>
-                <div class="row pb-5">
+                <div class="row pb-3">
                     <div class="col-6 pt-4">
                         <div class="row">
                             <div class="col-4">
@@ -220,7 +221,7 @@ $pg="sobre-mi";
                             </div>
                             <div class="col-8">
                                 <p class="puesto">Relleno</p>
-                                <p class="empresa">Relleno Relleno de Relleno</p>
+                                <p class="inst">Relleno Relleno de Relleno</p>
                                 <p class="tiempo">Relleno - Relleno</p>
                                 <p>https://relleno.relleno.ar</p>
                             </div>
@@ -228,9 +229,74 @@ $pg="sobre-mi";
                     </div>
                 </div>
             </div>
+        </section>
+        <section id="profesional">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 pt-5 pb-4">
+                        <h2><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-mortarboard-fill" viewBox="0 0 16 16">
+  <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
+  <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
+</svg> Cursos de desarrollo profesional</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="container shadow">
+                <div class="row pt-1 pb-1">
+                    <div class="col-6 pt-4">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="images/depcsuite.png" alt="" width="80px">
+                            </div>
+                            <div class="col-8">
+                                <p class="puesto">Programación Full Stack</p>
+                                <p class="inst">DePC Suite</p>
+                                <p class="tiempo">nov 2021 - actualidad</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 pt-4">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="images/sin-logo.png" alt="" width="80px">
+                            </div>
+                            <div class="col-8">
+                                <p class="puesto">Relleno</p>
+                                <p class="inst">Relleno relleno</p>
+                                <p class="tiempo">Expedición: relleno</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pb-3">
+                    <div class="col-6 pt-4">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="images/sin-logo.png" alt="" width="80px">
+                            </div>
+                            <div class="col-8">
+                                <p class="puesto">Relleno</p>
+                                <p class="inst">Relleno Relleno de Relleno</p>
+                                <p class="tiempo">Expedición: relleno</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 pt-4">
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="images/sin-logo.png" alt="" width="80px">
+                            </div>
+                            <div class="col-8">
+                                <p class="puesto">Relleno</p>
+                                <p class="inst">Relleno relleno</p>
+                                <p class="tiempo">Expedición: relleno</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </section>
-
 
     <main>
     <footer class="container mb-3">
