@@ -185,7 +185,7 @@ footer a{
     color: #370a6d;
     font-size: 22px;
 }
-#sobre-mi #experiencia img,  #sobre-mi #formacion img{
+#sobre-mi #experiencia img,  #sobre-mi #formacion img, #sobre-mi #profesional img{
     color: #6a6a6a;
     background-color: white;
     display: block;
@@ -221,7 +221,37 @@ footer a{
 .borde{
     border: solid 10px white;
 }
-
+#sobre-mi .container {
+    border-radius: 5px;
+}
+#sobre-mi #idiomas {
+    background-color: #eeeeee;
+}
+.violeta{
+    background-color: #370a6d;
+    border-radius: 15px;
+    height: 160px;
+}
+.idiho{
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 340px;
+}
+.bi-star-fill{
+    color: white;
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bi-chat-left-fill{
+    color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+}
 
 @media (max-width: 750px) {
     #contacto, #inicio {
@@ -250,6 +280,12 @@ footer a{
     }
     #contacto footer a:hover, #inicio footer a:hover{
         color: #370a6d;
+    }
+    #sobre-mi .imagenlu img{
+        margin-left: auto !important; 
+    }
+    #sobre-mi .idiho{
+        width: auto;
     }
 
 }

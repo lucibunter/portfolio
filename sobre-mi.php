@@ -22,12 +22,12 @@ $pg="sobre-mi";
     <main>
         <div class="container">    
             <div class="row">
-                <div class="col-6 pb-5">
+                <div class="col-12 col-sm-6 pb-5">
                     <h1 class="col-12 pt-4 pb-3">Sobre mí</h1>
                     <P class="pb-5">Soy estudiante de programacion Full Stack en DePc Suite. Disfruto aprendiendo e investigando, poniendome objetivos y buscando soluciones para lograrlos.</P>
                     <a href="https://api.whatsapp.com/send?phone=542213141725" class="btn btn-rojo">Enviar mensaje</a>
                 </div>
-                <div class="col-6">
+                <div class="col-12 col-sm-6 imagenlu">
                     <div><img src="images/luli-listo.jpg" alt="" class="rounded-circle ms-5 mt-2 borde" width="300px"></div>
                 </div>
             </div>
@@ -166,9 +166,6 @@ $pg="sobre-mi";
                 </div>
             </div>
 
-
-
-
         </section>
         
         <section id="formacion">
@@ -184,7 +181,7 @@ $pg="sobre-mi";
             </div>
             <div class="container shadow">
                 <div class="row pt-1 pb-1">
-                    <div class="col-6 pt-4">
+                    <div class="col-12 col-sm-6 pt-4">
                         <div class="row">
                             <div class="col-4">
                                 <img src="images/sin-logo.png" alt="" width="100px">
@@ -197,7 +194,7 @@ $pg="sobre-mi";
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 pt-4">
+                    <div class="col-12 col-sm-6 pt-4">
                         <div class="row">
                             <div class="col-4">
                                 <img src="images/sin-logo.png" alt="" width="100px">
@@ -214,7 +211,7 @@ $pg="sobre-mi";
                     </div>
                 </div>
                 <div class="row pb-3">
-                    <div class="col-6 pt-4">
+                    <div class="col-12 col-sm-6 pt-4">
                         <div class="row">
                             <div class="col-4">
                                 <img src="images/sin-logo.png" alt="" width="100px">
@@ -243,7 +240,7 @@ $pg="sobre-mi";
             </div>
             <div class="container shadow">
                 <div class="row pt-1 pb-1">
-                    <div class="col-6 pt-4">
+                    <div class="col-12 col-sm-6 pt-4">
                         <div class="row">
                             <div class="col-4">
                                 <img src="images/depcsuite.png" alt="" width="80px">
@@ -255,7 +252,7 @@ $pg="sobre-mi";
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 pt-4">
+                    <div class="col-12 col-sm-6 pt-4">
                         <div class="row">
                             <div class="col-4">
                                 <img src="images/sin-logo.png" alt="" width="80px">
@@ -269,7 +266,7 @@ $pg="sobre-mi";
                     </div>
                 </div>
                 <div class="row pb-3">
-                    <div class="col-6 pt-4">
+                    <div class="col-12 col-sm-6 pt-4">
                         <div class="row">
                             <div class="col-4">
                                 <img src="images/sin-logo.png" alt="" width="80px">
@@ -281,7 +278,7 @@ $pg="sobre-mi";
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 pt-4">
+                    <div class="col-12 col-sm-6 pt-4">
                         <div class="row">
                             <div class="col-4">
                                 <img src="images/sin-logo.png" alt="" width="80px">
@@ -296,6 +293,38 @@ $pg="sobre-mi";
                 </div>
             </div>
 
+        </section>
+        <section id="idiomas">
+            <div class="container my-5">
+                <div class="row">
+                    <div class="col-12 col-sm-6 pt-5 pb-5">
+                        <div class="row ms-3">
+                            <div class="col-4 violeta">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-chat-left-fill" viewBox="0 0 16 16">
+  <path d="M2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+</svg>
+                            </div>
+                            <div class="col-8 idiho shadow">
+                                <p class="puesto ms-5 mt-5">IDIOMAS</p>
+                                <p class="ms-5 mt-2 mb-1">ESPAÑOL - Nativo</p>
+                                <p class="ms-5">INGLÉS - Básico</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 pt-5 pb-5">
+                        <div class="row">
+                            <div class="col-4 violeta">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+  <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+</svg>
+                            </div>
+                            <div class="col-8 idiho shadow">
+                                <p class="puesto ms-5 mt-5">HOBBIES</p>
+                                <p class="ms-5 mt-2">Hacer música</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
     <main>
